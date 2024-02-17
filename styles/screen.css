@@ -28,8 +28,12 @@ main {
     background: url('PolaroidGo.svg') no-repeat center 100px;
 }
 
-p {
+.d-body {
     color: var(--text-color);
+    text-align: center;
+}
+
+p {
     font-size: var(--pfont-size);
     margin: auto;
     text-align: left;
@@ -37,7 +41,6 @@ p {
 
 h2 {
     font-weight: var(--fweight);
-    color: var(--text-color);
     font-size: 6em;
     text-align: center;
     min-height: 800px;
@@ -45,20 +48,9 @@ h2 {
 
 h3 {
     font-weight: var(--fweight);
-    color: var(--text-color);
     font-size: var(--subfont-size);
 }
 
-.d-body {
-    text-align: center;
-}
-
-li {
-    list-style-image: url('.svg');
-    color: var(--text-color);
-    font-size: var(--pfont-size);
-    text-align: left;
-}
 .e-contain {
     width: 500px;
     border-radius: 20px;
@@ -78,5 +70,31 @@ input[type="text"] {
     color: #FFFFFF;
     padding: 24px;
 }
+
+.d-body ul li {
+    text-align: left;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 35px;
+    font-size: var(--pfont-size);
+}
+
+.d-body ul li.wf {
+    background: url('wifi.svg') no-repeat center left;
+}
+
+.d-body ul li.cd {
+    background: url('cloud.svg') no-repeat center left;
+}
+
+.d-body ul li.qr {
+    background: url('qrcode.svg') no-repeat center left;
+}
+
+.d-body ul li.pf {
+    background: url('photo-film.svg') no-repeat center left;
+}
+
+
 
 
