@@ -1,5 +1,6 @@
 :root {
     --text-color:#424242;
+    --background-color: #E9E9E9;
     --pfont-size: 1.4em;
     --subfont-size: 3em;
     --pcfont-size: 1.6em;
@@ -8,7 +9,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background: #E9E9E9;
+    background: var(--background-color);
     color: var(--text-color);
     margin: 0;
     padding: 0;
@@ -24,15 +25,16 @@ header h1 {
 }
 
 main {
+    background: url('PolaroidGo.svg') no-repeat center 250px;
     margin: 0 auto;
     width: 1000px;
-    background: url('PolaroidGo.svg') no-repeat center 250px;
 }
 
 .hero {
     text-align: center;
     min-height: 1000px;
 }
+
 .d-body {
     text-align: center;
 }
