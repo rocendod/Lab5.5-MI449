@@ -1,6 +1,7 @@
 :root {
     --text-color:#424242;
     --background-color: #E9E9E9;
+    --button-color: #FF3F3C;
     --pfont-size: 1.4em;
     --subfont-size: 3em;
     --pcfont-size: 1.6em;
@@ -72,7 +73,7 @@ input[type="text"] {
 }
 
 .c-button {
-    background-color: #FF3F3C;
+    background-color: var(--button-color);
     border: none;
     color: #FFFFFF;
     padding: 24px;
@@ -87,7 +88,7 @@ input[type="text"] {
 }
 
 .d-body ul li.wf {
-    background: url('wifi.svg') no-repeat center left;
+    background: url('wifi-soild.svg') no-repeat center left;
 }
 
 .d-body ul li.cd {
