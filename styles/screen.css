@@ -26,14 +26,14 @@ header h1 {
 }
 
 main {
-    background: url('PolaroidGo.svg') no-repeat center 250px;
+    background: url('/images/PolaroidGo.svg') no-repeat center 250px;
     margin: 0 auto;
     width: 1000px;
 }
 
 .hero {
     text-align: center;
-    min-height: 1000px;
+    min-height: 825px;
 }
 
 .d-body {
@@ -79,28 +79,32 @@ input[type="text"] {
     padding: 24px;
 }
 
+ul {
+    padding: 0;
+}
+
 .d-body ul li {
     text-align: left;
     list-style-type: none;
     margin: 10px 0;
-    padding: 0 0 0 35px;
+    padding: 0 0 0 60px;
     font-size: var(--pfont-size);
 }
 
 .d-body ul li.wf {
-    background: url('wifi-soild.svg') no-repeat center left;
+    background: url('/images/wifi.svg') no-repeat center left;
 }
 
 .d-body ul li.cd {
-    background: url('cloud.svg') no-repeat center left;
+    background: url('/images/cloud.svg') no-repeat center left;
 }
 
 .d-body ul li.qr {
-    background: url('qrcode.svg') no-repeat center left;
+    background: url('/images/qrcode.svg') no-repeat center left;
 }
 
 .d-body ul li.pf {
-    background: url('photo-film.svg') no-repeat center left;
+    background: url('/images/photo-film.svg') no-repeat center left;
 }
 
 
